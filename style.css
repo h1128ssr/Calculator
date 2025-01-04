@@ -1,0 +1,109 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 41.75rem;
+  width: 22.5rem;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.display-box {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-top: 40px;
+  height: 20%;
+  width: 100%;
+}
+
+.display-box #displayNum {
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  font-size: 4.5rem;
+  text-align: right;
+  outline: none;
+  border: none;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.key-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+
+#keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 92%;
+  margin-top: 30px;
+  gap: 2px;
+}
+
+#keys button {
+  height: 5.4rem;
+  width: 5.4rem;
+  border: none;
+  border-radius: 50%;
+  background-color: #EAEAEA;
+  font-size: 2rem;
+  transition: 0.2s;
+  user-select: none;
+}
+#keys button:active{
+  background-color: #CECECE;
+  border-radius: 25%;
+}
+
+#keys #equal {
+  width: 10.8rem;
+  border-radius: 40px;
+  font-size: 3rem;
+}
+#keys #multiply {
+  font-size: 3rem;
+}
+#keys #devide {
+  font-size: 3rem;
+  background-color: #C7E5FF;
+}
+#keys #devide:active {
+  background-color: #A5C3DC;
+}
+#keys #AC {
+  font-style: 1rem;
+  background-color: #D3FFCE;
+}
+#keys #AC:active {
+  background-color: #BBE4B7;
+}
+#keys .symbol {
+  background-color: #C7E5FF;
+}
+#keys .symbol:active {
+  background-color: #A5C3DC;
+}
+#keys #dot {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+}
